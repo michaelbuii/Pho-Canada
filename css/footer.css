@@ -1,0 +1,45 @@
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+    background-color: white;
+    clear: both;
+    height: auto;
+    
+}
+
+#contact {
+    flex: 1 600px;
+    width: 30%;
+    padding: 10px;
+}
+
+#hours {
+    flex: 1 600px;
+    width: 30%;
+    padding: 10px;
+}
+
+#location{
+    flex: 1 600px;
+    width: 30%;
+    padding: 10px;
+}
+
+#google{
+    width: 100%;
+    height: 250px;
+}
+
+footer > div {
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+footer > div > h3 {
+    font-size: 20px;
+}
+

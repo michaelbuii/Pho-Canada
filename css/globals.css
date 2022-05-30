@@ -1,0 +1,50 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Montserrat:wght@300;400;600&family=Poppins:wght@300;400;500;600&family=Satisfy&display=swap');
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+/* resets */
+body, html {
+    padding: 0;
+    margin: 0;
+    line-height: 1.1;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color:inherit
+}
+
+@media (max-width:767px){
+    .hide-for-mobile{
+        display: none;
+    }
+}
+
+@media (min-width:770px){
+    .hide-for-desktop{
+        display: none;
+    }
+}
+
+#menu, #gallery {
+    font-size: 50px;
+    font-family: "Satisfy", cursive;
+    text-align: center;
+}
+
+p{
+    line-height: 1;
+}
+
+
+
+
