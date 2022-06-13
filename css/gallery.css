@@ -12,10 +12,9 @@
 }
 
 .gallery .gallery-container .image{
-    height: 250px;
-    width: 300px;
+    height: 300px;
+    width: 390px;
 }
-
 
 .gallery .gallery-container .image img {
     height: 100%;
@@ -25,7 +24,7 @@
 }
 
 .gallery .gallery-container .image:hover img{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .gallery .popup-image{
@@ -61,4 +60,9 @@
     .gallery .popup-image img{
         width: 95%;
     }
+}
+
+figcaption{
+    padding: 10px;
+    font-size: 0.75rem;
 }
